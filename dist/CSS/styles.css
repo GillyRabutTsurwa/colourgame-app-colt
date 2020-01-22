@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  overflow: hidden; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #232323;
+  font-family: "Quicksand", sans-serif; }
+
+#colourDisplay {
+  display: block;
+  font-size: 250%; }
+
+#message {
+  color: #FFF;
+  display: inline-block;
+  width: 20%; }
+
+.selected {
+  color: #FFF;
+  background-color: steelblue; }
+
+h1 {
+  color: beige;
+  background-color: steelblue;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+  font-weight: normal;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1.1; }
+
+#container {
+  max-width: 60rem;
+  margin: 2rem auto; }
+
+.square {
+  width: 30%;
+  margin: 1.66%;
+  background-color: forestgreen;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 2rem;
+  -webkit-transition: all 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
+
+.stripe {
+  background-color: #FFF;
+  height: 3rem;
+  text-align: center; }
+  .stripe #message {
+    color: #000;
+    font-size: 175%; }
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  padding: 0 1rem;
+  outline: none;
+  font-size: 150%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  button:hover {
+    color: #FFF;
+    background-color: steelblue; }

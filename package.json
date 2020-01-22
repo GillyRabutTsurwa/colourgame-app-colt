@@ -1,0 +1,22 @@
+{
+  "name": "colour-guessing-game",
+  "version": "1.0.0",
+  "description": "Colt Steele's Guessing Game: Optimised Code",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass Sass/styles.scss dist/CSS/styles.css -w"
+  },
+  "keywords": [
+    "Practise",
+    "HTML",
+    "CSS",
+    "JS",
+    "ES6",
+    "Colours"
+  ],
+  "author": "Gilbert Rabut Tsurwa",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
